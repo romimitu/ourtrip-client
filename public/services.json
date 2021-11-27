@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Cox's Bazar - The Never Ending Sea Beach",
+        "price": 14300,
+        "day": "4 days",
+        "img": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/images/medium/GzaaHEAYU9Yl_sYbd2qJGJpKcgiobRS-.jpg",
+        "desc": "Upon arrival at Cox's Bazar check in at the hotel. Hotel Representative will pick you from the airport to the hotel."
+    },
+    {
+        "id": 2,
+        "name": "The Ultimate Nepal Experience",
+        "price": 31000,
+        "day": "4 days",
+        "img": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/images/large/YC_Wo12w0r3lthi3Sb1pYTYp2V5d_mlB.jpg",
+        "desc": "Welcome to Kathmandu International airport by our representative. Transfer to Kathmandu hotel by private car. Check-in at the hotel and overnight stay at Kathmandu hotel."
+    },
+    {
+        "id": 3,
+        "name": "5 Nights 6 Days of Glittering Nepal",
+        "price": 40000,
+        "day": "6 days",
+        "img": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/images/large/YyLA46viMi6OtMLobIOlhpJEHJKJa-u3.jpg",
+        "desc": "Travel to Kathmandu International Airport. Our representative will welcome you at the airport and will take you to the hotel by private car. Check-in at Hotel. Overnight stay at Kathmandu hotel."
+    },
+    {
+        "id": 4,
+        "name": "Simply Maldives",
+        "price": 45000,
+        "day": "3 Days",
+        "img": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/images/large/Kn98I4yLSRayRp2j1mYnCjT0f-iId12u.jpg",
+        "desc": "After arrival at the airport. Transfer to the Hotel on your own. Check-in at the hotel. Enjoy free time on your own. Overnight stay at the hotel."
+    },
+    {
+        "id": 5,
+        "name": "Wonderful Indonesia",
+        "price": 33000,
+        "day": "4 days",
+        "img": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/images/large/KeLlnJ0MmPX_s1ZMQW1zTD30RBVfa19_.jpg",
+        "desc": "On arrival to Airport, you will be welcomed by our representative. Then you will be transferred to hotel for check in, after check in free time for Leisure."
+    },
+    {
+        "id": 6,
+        "name": "Timeless Charm Vietnam",
+        "price": 35000,
+        "day": "4 days",
+        "img": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/images/large/d1__pDQ2fTcZjqEtQBOf7CaPSei6pzM-.jpg",
+        "desc": "Upon arrival, our representative will be waiting at the airport holding a signboard with your name on it, he will take you to the hotel for check-in. Stay overnight in Hanoi."
+    }
+]

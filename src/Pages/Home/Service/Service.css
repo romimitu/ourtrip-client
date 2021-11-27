@@ -1,0 +1,37 @@
+.service-card {
+    padding: 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top left, #f6f6f6, #e9f7ea);
+    transition: .5s;
+}
+
+.service-card:hover{
+    box-shadow: 2px 11px 13px -7px #7dd6f6;
+}
+
+.service-img img {
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.service-title-details {
+    padding: 10px 0px;
+}
+
+.service-title-details h3 {
+    color: #162F62;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.service-title-details p {
+    color: #162F62;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 1px;
+}
+
+.service-title-details span {
+    font-weight: 700;
+}
