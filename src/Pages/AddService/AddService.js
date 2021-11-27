@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const AddService = () => {    
     const { register, handleSubmit, reset, formState: { errors } } = useForm();   
     const onSubmit = data => {
-        fetch('https://sleepy-garden-44797.herokuapp.com/service', {
+        fetch('https://stark-spire-25768.herokuapp.com/service', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

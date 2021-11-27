@@ -17,7 +17,7 @@ const BookNow = () => {
         data.service = packages;
         data.status = "Pending";
         data.user_email=user.email;
-        fetch('https://sleepy-garden-44797.herokuapp.com/orders', {
+        fetch('https://stark-spire-25768.herokuapp.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

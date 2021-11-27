@@ -6,7 +6,7 @@ const MyOrders = () => {
     const { user } = useAuth();
     const [orders, setOrders] = useState([])
     useEffect(() => {
-        fetch(`https://sleepy-garden-44797.herokuapp.com/orders/${user.email}`)
+        fetch(`https://stark-spire-25768.herokuapp.com/orders/${user.email}`)
             .then(res => res.json())
             .then(data => setOrders(data));
     }, [user])
@@ -14,7 +14,7 @@ const MyOrders = () => {
     const handleRemove = key => {
         let x = window.confirm("Are you sure you want to delete?");
         if (x){
-            fetch(`https://sleepy-garden-44797.herokuapp.com/delete-order/${key}`, {
+            fetch(`https://stark-spire-25768.herokuapp.com/delete-order/${key}`, {
                 method: 'DELETE',
                 headers: {
                     'content-type': 'application/json'

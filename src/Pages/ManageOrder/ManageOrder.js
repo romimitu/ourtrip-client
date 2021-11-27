@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const ManageOrder = () => {
     const [orders, setOrders] = useState([])
     useEffect(() => {
-        fetch('https://sleepy-garden-44797.herokuapp.com/orders')
+        fetch('https://stark-spire-25768.herokuapp.com/orders')
             .then(res => res.json())
             .then(data => setOrders(data));
     }, [orders])
@@ -13,7 +13,7 @@ const ManageOrder = () => {
     const handleUpdate = key => {
         let x = window.confirm("Are you sure you want to Confirm?");
         if (x){
-            fetch(`https://sleepy-garden-44797.herokuapp.com/confirm-order/${key}`, {
+            fetch(`https://stark-spire-25768.herokuapp.com/confirm-order/${key}`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
